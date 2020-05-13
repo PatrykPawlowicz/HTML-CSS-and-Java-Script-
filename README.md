@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies and Setup](#technologies-and-setup)
 * [Sreenshots](#screenshots)
+* [Sources](#sources)
 
 ## General info
 Simple websites created in Visual Studio Code for learning the basics of HTML, CSS and basics of Java script.
@@ -32,3 +33,6 @@ Podstrona - Formularz zad.4
 Zadanie 5
 
 ![Zadanie 5](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(21).png?raw=true)
+
+## Sources
+* The file Zadanie 3 + zadanie 4 uses a film from YouTube url:  https://youtu.be/rPzmqGwQlBw  belonging to the company ProNatura Bydgoszcz
