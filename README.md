@@ -18,6 +18,7 @@ Zadanie 2
 ![Zadanie 2](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(20).png?raw=true)
 mapa
 ![Mapa](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(18).png?raw=true)
+
 Zadanie 3 + zadanie 4
 Strona główna
 ![Zadanie 3 + zadanie 4](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(19).png?raw=true)
@@ -27,5 +28,7 @@ Podstrona - reguły tworzenia hasło
 ![Zadanie 3 + zadanie 4](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(16).png?raw=true)
 Podstrona - Formularz zad.4
 ![Zadanie 3 + zadanie 4](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(14).png?raw=true)
+
 Zadanie 5
+
 ![Zadanie 5](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(21).png?raw=true)
