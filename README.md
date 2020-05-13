@@ -12,3 +12,4 @@ Simple websites created in Visual Studio Code for learning the basics of HTML, C
 To open the files, all you need is an internet browser, to view the code just a notepad, but I recommend one of the code editors.
 
 ## Screenshots
+![Zadanie1](ścieżka/do/pliku)
