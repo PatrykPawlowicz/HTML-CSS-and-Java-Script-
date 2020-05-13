@@ -14,5 +14,7 @@ To open the files, all you need is an internet browser, to view the code just a 
 ## Screenshots
 Zadanie.1
 ![Zadanie1](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(15).png?raw=true)
+Zadanie 2
+![Zadanie 2]()
 mapa
-![Mapa]()
+![Mapa](https://github.com/PatrykPawlowicz/HTML-CSS-and-Java-Script-/blob/master/Wizualizacje/Zrzut%20ekranu%20(18).png?raw=true)
