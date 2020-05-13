@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie2</title>
+    <link rel = "stylesheet" type = "text/css" href = "Zadanie2.css">
+</head>
+<body>
+    <div id = "Strona">
+
+
+        <div id = "Logo">
+            Logo
+        </div>
+
+
+        <div id = "Menu">
+            <div class="option">Strona Główna</div>
+            <div class="option">Dystrybucje</div>
+            <div class="option">Instalacja</div>
+            <div class="option">Polecenia</div>
+            <div class="option">Linus Torwalds</div>
+            <div class="option">O Projekcie</div>
+        </div>
+
+        <div id="Logowanie">
+            Zaloguj
+        </div>
+
+        <div id = "PierwszyObszarBoczny">
+            Patryk Pawłowicz 
+        </div>
+
+
+        <div id = "ObszarRoboczy">
+            <h3></he3>Jakiś tekst:</h3><br>
+            Nic dwa razy się nie zda­rza<br>
+            i nie zda­rzy. Z tej przy­czy­ny<br>
+            zro­dzi­li­śmy się bez wpra­wy<br>
+            i po­mrze­my bez ru­ty­ny.<br>
+            <br>
+            Choć­by­śmy ucznia­mi byli<br>
+            naj­tęp­szy­mi w szko­le świa­ta,<br>
+            nie bę­dzie­my re­pe­to­wać<br>
+            żad­nej zimy ani lata.<br>
+    
+        </div>
+
+
+        <div id="DrugiObszarBoczny">
+            Data: 
+            <script >
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+                var hh = today.getHours();
+                var xx = today.getMinutes();
+                var ss = today.getSeconds();
+
+                today = hh + ':' + xx + ':' + ss +'   ' + mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

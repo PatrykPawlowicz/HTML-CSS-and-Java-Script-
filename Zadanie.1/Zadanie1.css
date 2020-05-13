@@ -1,0 +1,76 @@
+table{
+
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 2px;
+    table-layout: auto;
+    width: 100%;
+    background-color: rgb(208, 224, 230);
+
+}
+#img {
+    widows: 100px;height:100px
+}
+#Kom4{
+    height: 500px; 
+    width: 20%;
+    vertical-align: text-top;
+    text-align: center;
+}
+#Kom5{
+    height: 500px; 
+    width: 60%;
+    vertical-align: text-top;
+    background-image: url(https://img.freepik.com/darmowe-wektory/biale-tlo-w-stylu-3d-papieru_23-2148403778.jpg?size=626&ext=jpg);
+    
+}
+#Kom6{
+    height: 500px; 
+    width: 20%;
+    vertical-align: text-top;
+    text-align: center;
+}
+#tekst1{
+    color: red;
+    font-style: arial;
+    font-size: larger;
+    text-align: center;
+}
+#Nagłowek{
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+#tekst2{
+    vertical-align: middle;
+    text-align: center;
+    
+
+}
+#jpg{
+    vertical-align: middle;
+    align-items: center;
+    algin: center
+}
+#stopka{
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-small;
+}
+#ul { list-style-type: circle;
+    color: red; 
+    float: left;
+    text-align: left;
+}
+
+#ol {list-style-type:"1";
+    color:red  ;}
+hr {color: purple;
+    height: 5px;
+    background-color: purple;}
+
+#onas{
+    text-align: center;
+}

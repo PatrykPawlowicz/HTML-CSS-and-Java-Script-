@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Formularz.css'>
+    <script src='Formularz.js'></script>
+</head>
+<body>
+        <div id = "Baner">
+            <a href="index.html"><h1>Weryfikacja jakości hasła</h1></a>
+        </div>
+
+        <div id = "PanelLewy">
+            <p>Wybierz opcję:</p>
+            <ul>
+                <li><a href="sprawdz.html">Sprawdź hasło</a></li>
+                <li><a href="reguly.html">Reguły tworzenia hasła</a></li>
+                <li><a href="Formularz.html">Formularz zad.4</a></li>
+              </ul>
+        </div>
+
+        <div id = "PanelPrawy">
+            <h3>Formularz: </h3>
+                    <fieldset>
+                    
+                        <p>Imię</p>
+                        <input id="imie">
+                        <button type="button" onclick="imie()">Zatwierdź</button>
+                        <p id="demo"></p>
+
+                        <script>
+                        function imie() {
+                        var x, text;
+
+                        
+                        x = document.getElementById("imie").value;
+
+                        
+                        const reg = /^[a-zA-ZąĄćĆęĘłŁńŃóÓśŚźŹżŻ]{3,}$/g;
+                        
+
+                        pierwszaLiteraI = x[0];
+                        if (reg.test(x) && pierwszaLiteraI == pierwszaLiteraI.toUpperCase()) {
+                            text = "Podana wartość jest poprawna";
+                        } else {
+                            text = "Upewnij się że wpisana wartość jest poprawna";
+                        }
+                        document.getElementById("demo").innerHTML = text;
+                        }
+                        </script>
+
+                        <p>Nazwisko</p>
+                        <input id="nazwisko">
+                        <button type="button" onclick="nazwisko()">Zatwierdź</button>
+                        <p id="demo2"></p>
+
+                        <script>
+                        function nazwisko() {
+                        var x, text;
+
+                        x = document.getElementById("nazwisko").value;
+
+                        const reg = /^[a-zA-ZąĄćĆęĘłŁńŃóÓśŚźŹżŻ]{3,}$/g;
+                        
+                        pierwszaLiteraN = x[0];
+                        if (reg.test(x) && pierwszaLiteraN == pierwszaLiteraN.toUpperCase()) {
+                            
+                            text = "Podana wartość jest poprawna";
+                        } else {
+                            text = "Upewnij się, że podana wartość jest poprawna";
+                        }
+                        document.getElementById("demo2").innerHTML = text;
+                        }
+                        </script>
+
+                        <p>e-mail</p>
+                        <input id="email">
+                        <button type="button" onclick="email()">Zatwierdź</button><br>
+                        <p id="demo3"></p>
+
+                        <script>
+                        function email() {
+                        var x, text;
+                        
+                        x = document.getElementById("email").value;
+
+                        const emailReg = /^[0-9a-z_.-]+@[0-9a-z.-]+.[a-z]{2,3}$/;
+                        
+
+                        if (emailReg.test(x)) {
+                            text = "Podana wartość jest poprawna";
+                        } else {
+                            text = "Upewnij się że wpisałeś swój adres e-mail w poprawnym formacie";
+                        }
+                        document.getElementById("demo3").innerHTML = text;
+                        }
+                        </script>
+
+
+                    <input type="reset" value="Wyczyść formularz" />
+                </fieldset>
+        </div>
+            <div id="Stopka">
+                <p>Wskaźnik jakości hasła - Patryk Pawłowicz</p>
+            </div>
+
+</body>
+</html>

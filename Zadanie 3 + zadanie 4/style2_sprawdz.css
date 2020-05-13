@@ -1,0 +1,43 @@
+body{width:100%;
+    height:100%;
+    margin:auto;}
+    #Baner{
+        height:80px; 
+        padding-top: 1px;
+        font-style: verdana;
+        text-align: center;
+        background-color:#08826A;}
+    #PanelLewy{
+        width:30%; 
+        min-height:500px; 
+        float:left;
+        text-align: center;
+        background-color: #1E9880;}
+    
+    #PanelPrawy_sprawdz{
+        width: 60%;
+            float: left;
+            min-height: 450px;
+            background-color: #9AC8BF;
+            padding-top: 50px;
+            padding-left: 10%;
+            }
+    #Stopka{
+        padding-left: 82%;
+        background-color:#08826A;
+        color: white;
+        float: bottom;
+        clear:both;
+        font-style: arial;
+        font-size: 15px;}
+    #haslo{
+        height: 200px;
+        width: 400px;
+        margin-top: 20%;
+        margin-left: 35%;
+    
+    }
+    #p1{
+        font-size: 20px;
+        font-weight: bold;
+    }

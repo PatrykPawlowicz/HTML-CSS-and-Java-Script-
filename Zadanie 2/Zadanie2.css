@@ -1,0 +1,58 @@
+#PierwszyObszarBoczny{
+    float: left;
+    height: 300px;
+    width: 200px;
+    border-style: groove;
+}
+#DrugiObszarBoczny{
+    float: right;
+    height: 300px;
+    width: 200px;
+    border-style: groove;
+}
+#ObszarRoboczy{
+    float: left;
+    height: 300px;
+    width: 1126px;
+    background-color: lightgrey;
+    border-top: groove;
+    border-bottom: groove;
+    text-align: center;
+}
+#Logowanie{
+background-color: lightskyblue;
+text-align: right;
+vertical-align: inherit;
+
+}
+#Menu{
+    min-width: 50px;
+    height: 50px;
+
+
+}
+Body{
+border-style: solid;
+border-color: black;
+width: 100%;
+}
+.option{
+float: left;
+min-width: 50px;
+height: 25px;
+font-size: 18px;
+padding: 10px;
+border-right: 2px dotted #444444;
+opacity: 0.8;
+border-color: yellow;
+border-style: dotted;
+background-color:darkgrey;
+}
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+#Logo{
+    background-color: lightblue;
+}

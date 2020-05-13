@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zadanie 5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h2>Zadanie 5</h2>
+    <p>Skrypt 2</p><br>
+    <p>Wypisz 7 cyfr, oddzielając je spacją.
+        <input type="text" name="liczby" id="liczby">
+        <input type="button" name="Wyślij" value="Sprawdź" id= "b1" onclick="Max()"/>
+    </p>
+    <p id= "maksimum"></p>
+
+    <p>Skrypt 3</p><br>
+    <p>
+        <input type="text" name="Fibonacci" id="liczba">
+        <input type="button" name="Sprawdź" value="Pokaż jaką wartość ma ten element w ciągu fibonacciego" id="b2" onclick= "MFib()">
+    </p>
+    <p id="Fib"></p>
+
+    <p>Skrypt 4</p><br>
+    <p>
+        <input type="text" name= wart1 id="wart1">
+        <label for = "wart1">Liczba 1</label>
+        <input type="text" name= wart1 id="wart2">
+        <label for = "wart2">Liczba 2</label>
+        <input type="button" value="Oblicz NWD" value = "Sprawdź" id = "b3" onclick="NWD()"/>
+    </p>
+    <p id = "wynik"></p>
+
+<script>
+function Max(){
+var liczby = document.getElementById("liczby").value;
+var tab = liczby.split(" ");
+var max = 0;
+for (var i = 0; i < tab.length; i++) {
+    if (tab[i] > max) {
+        max = tab[i]
+        }
+}
+maksimum.innerHTML = "Największa liczba to: " + max;
+}
+</script>
+
+<script>
+    function MFib() {
+var liczba = Fibonacci.value;
+var n = 0;
+if (Number.isInteger(parseInt(liczba)) == false ){
+    Fib.innerHTML = "Podana wartość nie jest cyfrą."
+}
+    if (liczba < 2){ 
+        n = liczba;
+    }
+    else { 
+        var a = 1, pop = 1, tmp;
+        let i = 3;
+    while (i <= liczba) {
+        tmp = pop;
+        pop = a;
+        a = tmp + pop;
+        i++;
+    }
+    n = a;
+    }
+    Fib.innerHTML = Fibonacci.value + "element ciągu Fibonacciego to: " + n;
+    }
+</script>
+
+<script>
+    function NWD(){
+        var x = document.getElementById("wart1").value
+        var y = document.getElementById("wart2").value
+        var nwd;
+        do {
+            nwd = x>y ? x-y:y-x;
+            if(y>x)
+            y = nwd;
+            else
+            x = nwd;
+        }
+        while(nwd !=0);
+        wynik.innerHTML = "NWD obu liczb wynosi: "+y;
+    }
+</script>
+</body>
+</html>
