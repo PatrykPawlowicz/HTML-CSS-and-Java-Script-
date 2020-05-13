@@ -1,4 +1,4 @@
-### Basic Web pages
+# Basic Web pages
 
 ## Table of contents
 * [General info](#general-info)
